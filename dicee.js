@@ -13,7 +13,7 @@ else {
 first();
 var number = first();
 
-document.getElementsByTagName("img")[0].setAttribute("src" , "images/dice" + number + ".png");
+document.getElementsByTagName("img")[0].setAttribute("src" , "dice" + number + ".png");
 
 //Second dice
 
@@ -32,7 +32,7 @@ var number2 = second();
 
 //header dom:
 
-document.getElementsByTagName("img")[1].setAttribute("src" , "images/dice" + number2 + ".png");
+document.getElementsByTagName("img")[1].setAttribute("src" , "dice" + number2 + ".png");
 
 if (number>number2){
 	document.querySelector("h1").textContent = "Player 1 wins.";
