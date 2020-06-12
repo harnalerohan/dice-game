@@ -1,7 +1,12 @@
-.container {
+.container1 {
   width: 70%;
   margin: auto;
   text-align: center;
+}
+
+.btnn{
+	margin:19px 700px 1px 700px;
+	width: 7.3rem;
 }
 
 .dice {
@@ -40,5 +45,5 @@ footer {
 
 }
 .btn{
-	
+
 }
